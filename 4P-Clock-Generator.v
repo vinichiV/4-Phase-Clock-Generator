@@ -1,7 +1,12 @@
 module test(input CLK, output p0, output p1, output p2, output p3);
 	reg D0, D1, Q0, Q1;
 	wire a, b;
-	
+  
+	initial begin 
+		D0 <= 1'b0; D1 <= 1'b0;
+		Q0 <= 1'b0; Q1 <= 1'b0;
+	end
+
 	assign a = Q1;
 	assign b = ~Q0;
 	
