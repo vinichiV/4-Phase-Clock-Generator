@@ -1,7 +1,7 @@
 # Four-Phase Clock Generator
 Generating four distinct clock phases, each phase being equally spaced in time (90°).<br>
-Since the Four-Phase Clock Generator can be considered as a counter, for the testbench, we initialize the input value to 0 to ensure that the pulse width of the clock pulses is equal and the phase shift is 90°, as well as to avoid the undefined values.
-By using two D-type flip-flops (four phases, two bits), we can design a four-phase clock generator circuit (synchronous):
+Since the *Four-Phase Clock Generator* can be considered as **a counter**, for the testbench, we initialize the input value to 0 to ensure that the pulse width of the clock pulses is equal and the phase shift is 90°, as well as to avoid the undefined values.<br>
+By using two **D-type flip-flops** (four phases, two bits), we can design a four-phase clock generator circuit (synchronous):
 - Input: Initialization pulse.
 - Output: 4 clock pulses with 4 distinct phases (p1, p2, p3, p4), each having equal phase shift.<br>
 
