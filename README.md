@@ -8,3 +8,7 @@ By using two D-type flip-flops (four phases, two bits), we can design a four-pha
 ![Screenshot 2024-12-22 145506](https://github.com/user-attachments/assets/6378ceda-7af9-4b35-a040-ccb4aba56ef3)<br>
 ***K-Map for D0:***<br>
 ![Screenshot 2024-12-22 151203](https://github.com/user-attachments/assets/bfde88b3-c5cc-4831-8d5d-4c2b9fb1831f)<br>
+***K-Map for D1:***<br>
+![Screenshot 2024-12-22 151431](https://github.com/user-attachments/assets/e0ee1447-7e2c-40b6-a868-9855cdf1a7e8)<br>
+The circuit diagram can be implemented as follows (with two active high D-type flip-flops):<br>
+![Screenshot 2024-08-08 233513](https://github.com/user-attachments/assets/e4254cf5-6eef-460c-a944-53fb9d16ee5e)
